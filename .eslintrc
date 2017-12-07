@@ -3,6 +3,9 @@
   "env": {
     "browser": true
   },
+  "plugins": [
+    "react"
+  ],
   "rules": {
     "comma-dangle": 2,
     "no-cond-assign": 2,
@@ -92,5 +95,7 @@
     "no-use-before-define": 0,
     "prefer-arrow-callback": 2,
     "no-var": 2,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
   }
 }
