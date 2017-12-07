@@ -1,4 +1,4 @@
-process.env.PUBLIC_URL = '/';
+'use strict';
 
 module.exports = require('./make-webpack-config')({
     minimize: true,
