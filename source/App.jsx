@@ -5,7 +5,6 @@ import { Provider } from 'react-redux';
 import projectStore from './store.es6';
 
 import './style.scss';
-import 'foundation-sites';
 
 ReactDOM.render(
     <Provider store={projectStore}>

@@ -2,7 +2,7 @@
   "name": "newest-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "App.jsx",
+  "main": "bundle.js",
   "scripts": {
     "dev-server": "webpack-dev-server --config webpack/webpack.config.js --progress --colors",
     "build": "webpack --config webpack/webpack.production.config.js --progress --colors",
@@ -12,12 +12,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.16.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "classnames": "^2.2.5",
     "compression-webpack-plugin": "^1.0.1",
     "css-loader": "^0.28.7",
     "eslint": "^4.12.1",
@@ -30,6 +33,7 @@
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-form": "^7.2.0",
     "redux-thunk": "^2.2.0",
@@ -41,6 +45,9 @@
     "webpack-merge": "^4.1.1"
   },
   "dependencies": {
-    "foundation-sites": "^6.4.4-rc1"
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "react-modal": "^3.1.7",
+    "react-simple-dropdown": "^3.2.0"
   }
 }
